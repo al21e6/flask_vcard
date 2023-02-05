@@ -16,6 +16,7 @@ class VCard:
         self.description = ""
         self.website = ""
         self.street = ""
+        self.city = ""
         self.state = ""
         self.postcode = ""
         self.country = ""
@@ -44,6 +45,7 @@ class VCard:
         self.description = app.config.get("VCARD_DESCRIPTION", "")
         self.website = app.config.get("VCARD_WEBSITE", "")
         self.street = app.config.get("VCARD_STREET", "")
+        self.city = app.config.get("VCARD_CITY", "")
         self.state = app.config.get("VCARD_STATE", "")
         self.postcode = app.config.get("VCARD_POSTCODE", "")
         self.country = app.config.get("VCARD_COUNTRY", "")
