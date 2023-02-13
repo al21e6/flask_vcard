@@ -1,0 +1,11 @@
+[project]
+name = "Flask_VCard"
+description = "A Flask V-card extension."
+version = "0.1.0"
+readme = "README.md"
+authors = [
+    { name = "ajrlewis", email = "git@ajrlewis.com" }
+]
+dependencies = [
+    "Flask >= 2.2.2",
+]
